@@ -1,0 +1,400 @@
+* {
+    margin: 0;
+    padding: 0;
+    color: white;
+    font-family: "Roboto", sans-serif;
+}
+
+body {
+    background-color: rgb(2, 6, 20);
+}
+
+.header {
+    width: 100vw;
+    height: 5rem;
+    background-color: rgb(2, 5, 15);
+    border-bottom: 0.1rem solid white;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+}
+
+.logo img {
+    width: 7rem;
+    height: 7rem;
+}
+
+.nav_bar a {
+    text-decoration: none;
+    color: white;
+    margin: 0.7rem;
+    padding: 0.4rem 0.8rem;
+}
+.nav_bar a:hover{
+    cursor: pointer;
+    color: rgb(215, 164, 98);
+    /* text-decoration: underline; */
+    border: 1px solid rgba(215, 164, 98, 0.5);
+    border-radius: 1.4rem;
+}
+
+.icon i {
+    margin: 1.5rem;
+}
+.icon i:hover{
+    color: rgb(215, 164, 98);
+    font-size: 1.2rem;
+}
+.hero_section {
+    background-image: url(images/img3.jpg);
+    min-height: 100vh;
+    background-size: cover;
+    background-position: center;
+    box-shadow: inset 4.5rem 4.5rem 5rem rgb(2, 5, 15);
+    margin-top: 5rem;
+}
+
+.hero_content {
+    padding: 10rem 40rem 10rem 5rem;
+    font-size: 0.9rem;
+
+
+}
+
+.hero_content h1 {
+    font-size: 3rem;
+}
+
+.btn {
+    background-color: rgb(215, 164, 98);
+    padding: 0.5rem 1.5rem;
+    border-style: none;
+    margin: 1rem 0rem;
+
+}
+.btn:hover{
+    transform: scale(1.1,1);
+    box-shadow: 0.05rem 0.05rem 2rem rgb(215, 164, 98);
+    transition: transform 0.2s ease 0s;
+    cursor: pointer;
+}
+
+.about_section h1 {
+    font-size: 2.5rem;
+    text-align: center;
+    padding: 1rem;
+    margin-top: 1rem;
+}
+
+.about_section h1 span {
+    color: rgb(215, 164, 98);
+
+}
+
+.stuff {
+    margin: 3.5rem;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(25, 30, 43);
+}
+
+.aboutus_img {
+    width: 30%;
+
+}
+
+.aboutus_content {
+    margin: 1rem;
+    margin-top: 1.5rem;
+}
+
+.about_section h2 {
+    font-size: 2rem;
+}
+
+.aboutus_content p {
+    margin: 1rem 0rem;
+}
+
+.line_one {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.menu_section {
+    margin: 0rem 3.5rem;
+}
+
+.menu_section h1 {
+    text-align: center;
+    font-size: 2.5rem;
+
+
+}
+
+.contain_box {
+    border: 0.001rem solid rgba(255, 255, 255, 0.423);
+    height: 17rem;
+    width: 24rem;
+    margin-top: 2rem;
+}
+
+.box {
+    text-align: center;
+    margin: 2rem;
+}
+
+.contain_box img {
+    height: 4rem;
+    border-radius: 50%;
+}
+
+.product_box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.products_section h1 {
+    text-align: center;
+    font-size: 2.5rem;
+    margin-top: 2.5rem;
+
+
+}
+
+.products_section h1 span {
+    color: rgb(215, 164, 98);
+}
+
+.section {
+    text-align: center;
+    border: 2px solid rgba(255, 255, 255, 0.451);
+    height: 30rem;
+    width: 23rem;
+    margin: 2.5rem 0.5rem;
+
+}
+
+.products_icons i {
+    border: 1px solid rgba(255, 255, 255, 0.393);
+    margin: 1rem 0.2rem;
+    padding: 0.8rem;
+
+}
+.products_icons i:hover{
+    background-color: rgb(215, 164, 98);
+    font-size: 1.1rem;
+}
+
+.section img {
+    height: 15rem;
+    width: 20rem;
+}
+
+.star i {
+    color: rgb(215, 164, 98);
+    margin: 0.1rem;
+}
+
+.section p {
+    font-size: 1.4rem;
+
+}
+
+.customer_container {
+    margin: 2.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.customer_section h1 {
+    text-align: center;
+    margin: 2rem;
+    font-size: 2.5rem;
+
+}
+
+.customer_section span {
+    color: rgb(215, 164, 98);
+}
+
+.customer_box {
+    border: 1px solid rgba(255, 255, 255, 0.886);
+    margin: 1rem;
+    height: 27rem;
+    width: 25rem;
+    text-align: center;
+
+}
+
+.customer_box p {
+    color: rgba(255, 255, 255, 0.752);
+    margin: 2rem;
+    font-size: 1.1rem;
+    margin-bottom: 2.5rem;
+}
+
+.customer_box h5 {
+    margin: 0.5rem;
+}
+
+.customer_icon i {
+    text-align: center;
+    font-size: 3rem;
+    color: rgb(215, 164, 98);
+    margin: 1.3rem 0.2rem;
+}
+
+.customer_section img {
+    height: 3.5rem;
+    border-radius: 50%;
+    margin: 0.5rem;
+}
+
+.contact_section {
+    margin: 2.9rem;
+
+
+}
+
+.contact_section span {
+    color: rgb(215, 164, 98);
+}
+
+.contact_section h1 {
+    margin: 2.5rem;
+    text-align: center;
+    font-size: 2.5rem;
+
+}
+
+.contact_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.map_img img {
+    height: 25rem;
+    width: 30rem;
+}
+
+.details {
+    background-color: rgb(25, 30, 43);
+    height: 25rem;
+    width: 60rem;
+
+}
+
+.details h3 {
+    font-size: 2.5rem;
+    margin: 1.5rem;
+    text-align: center;
+}
+
+.input_box {
+    border: 1px solid rgba(255, 255, 255, 0.404);
+    height: 1.5rem;
+    width: 40rem;
+    margin: 1.5rem;
+    padding: 1rem;
+}
+
+.input_box i {
+    font-size: 1.2rem;
+    margin-right: 0.5rem;
+}
+
+.input_box input {
+    height: 1rem;
+    width: 20rem;
+    padding: 0.5rem;
+    background-color: transparent;
+    font-size: 0.8rem;
+    outline-style: none;
+}
+
+.details button {
+    margin: 0rem 20rem;
+    padding: 0.5rem 1.5rem;
+    font-size: 0.8rem;
+    font-weight: 500;
+}
+.blog_section h1{
+    text-align: center;
+    font-size: 2.5rem;
+    margin: 2.5rem;
+
+}
+.blog_section span{
+    color: rgb(215, 164, 98);
+}
+.blog_container{
+    display: flex;
+    justify-content: center;
+
+}
+.blog_box{
+    height: 35rem;
+    width: 25.5rem;
+    border: 1px solid rgba(255, 255, 255, 0.404);
+    margin: 0.5rem;
+    
+}
+.blog_box img{
+    height:15rem ;
+    width: 25.5rem;
+}
+.blog_content{
+    margin: 1rem;
+
+}
+.blog_content h2{
+    margin-bottom: 0.5rem;
+
+}
+.blog_content h4{
+    color: rgb(215, 164, 98);
+    margin-bottom: 0.5rem;
+}
+.blog_content p{
+    color: rgba(255, 255, 255, 0.486);
+}
+.footer{
+    background-color: rgba(25, 30, 43, 0.301);
+    height: 8rem;
+    width: 100%;
+    text-align: center;
+    margin-top: 0.5rem;
+}
+
+.footer_icon i{
+    
+    background-color: rgb(215, 164, 98);
+    height: 2rem;
+    width: 2rem;
+    padding: 0.7rem 0.4rem 0.2rem 0.4rem;
+    border-radius: 50%;
+    font-size: 1.4rem;
+    margin: 0.5rem;
+
+    
+
+}
+.footer_icon i:hover{
+    transform: scale(1.1);
+}
+.footer p{
+    margin: 1.1rem;
+    font-weight: 200;
+
+}
+.footer p span{
+    color: rgb(215, 164, 98);
+}
